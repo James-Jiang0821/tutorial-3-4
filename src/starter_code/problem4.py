@@ -1,6 +1,5 @@
 # Problem 4: Dealing with missing values
 from pathlib import Path
-
 import pandas as pd
 
 
@@ -76,8 +75,8 @@ if __name__ == '__main__':
 
     # Problem 4
     # 1. Print the missing values in the DataFrame using .isna() or isnnull(). 'True' indicates a missing value.
-    print()  # add code inside the print
+    #print()  # add code inside the print
 
     # 2. Create a dataframe named `missing_rows` with only the rows that contain any missing values
-    missing_rows = ''  # Add code here, delete the ''
-    print(missing_rows)
+    #missing_rows = ''  # Add code here, delete the ''
+    #print(missing_rows)

@@ -91,10 +91,10 @@ if __name__ == '__main__':
     merged_df = prepare_data(df=events_df, df2=noc_df)
 
     # 1. Print the data types of the ['Year', 'Start', 'End'] columns
-    print(merged_df[['Year', 'Start', 'End']].dtypes)
+    print(merged_df[['Year', 'Start', 'End', 'Duration']].dtypes)
 
     # 2. Check the format of the values in `['Year', 'Start', 'End']` by printing a couple of rows
-    print(merged_df[['Year', 'Start', 'End']].head(2))
+    print(merged_df[['Year', 'Start', 'End', 'Duration']].head(2))
 
 
 
